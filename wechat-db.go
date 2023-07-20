@@ -283,7 +283,7 @@ func main() { //主函数入口
 		if os.Getenv("MYSQLHOST") != "" {
 			Dbconn = os.Getenv("MYSQLUSER") + ":" + os.Getenv("MYSQLPASSWORD") + "@tcp(" + os.Getenv("MYSQLHOST") + ":" + os.Getenv("MYSQLPORT") + ")/" + os.Getenv("MYSQLDATABASE")
 		} else {
-			Dbconn = "zhujq:Juju1234@tcp(wechat.zhujq.ga:3306)/wechat"
+			Dbconn = "6urse1bzcppz:pscale_pw_6--zd5PpAPkzsnZkSgStc4UxszeFcIUu6voR2dbWV2Q@tcp(kt5v36c9jxrd.ap-southeast-2.psdb.cloud:3306)/wechat"
 		}
 	}
 
