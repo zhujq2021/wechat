@@ -283,7 +283,7 @@ func main() { //主函数入口
 		if os.Getenv("MYSQLHOST") != "" {
 			Dbconn = os.Getenv("MYSQLUSER") + ":" + os.Getenv("MYSQLPASSWORD") + "@tcp(" + os.Getenv("MYSQLHOST") + ":" + os.Getenv("MYSQLPORT") + ")/" + os.Getenv("MYSQLDATABASE")
 		} else {
-			Dbconn = "utsmzlqxmpvezwrb:fAtKgmQqer1B0ByJr2Xx@tcp(bq6p5gcgupppk0v7wvd3-mysql.services.clever-cloud.com:3306)/wechat"
+			Dbconn = "utsmzlqxmpvezwrb:fAtKgmQqer1B0ByJr2Xx@tcp(bq6p5gcgupppk0v7wvd3-mysql.services.clever-cloud.com:3306)/bq6p5gcgupppk0v7wvd3"
 		}
 	}
 
